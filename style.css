@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f2ec;
+  color: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-image {
+  max-width: 180px;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+.cta-button {
+  margin-top: 30px;
+  padding: 12px 28px;
+  border: 1px solid #7a1e2b;
+  color: #7a1e2b;
+  text-decoration: none;
+}
+
+.page {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.service {
+  margin-bottom: 50px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  background: transparent;
+}
+
+button {
+  padding: 12px 24px;
+  background: none;
+  border: 1px solid #7a1e2b;
+  color: #7a1e2b;
+  cursor: pointer;
+}

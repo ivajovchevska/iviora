@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Iviora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">Iviora</a>
+    <div class="menu">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="page">
+    <h1>Contact</h1>
+
+    <p>If something here resonates, you are welcome to reach out.</p>
+
+    <form id="contact-form" action="https://formspree.io/f/meezynvy" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send message</button>
+    </form>
+    <p id="thank-you-message" style="display:none; color:#7a1e2b; margin-top:20px; font-weight:bold;">
+  Thank you! Your message has been sent.
+</p>
+  </main>
+
+</body>
+</html>
