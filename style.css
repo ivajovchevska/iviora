@@ -34,7 +34,7 @@ nav a {
 }
 
 .logo-image {
-  max-width: 800px;
+  max-width: 300px;
   margin-bottom: 30px;
 }
 
@@ -76,6 +76,7 @@ button {
   color: #7a1e2b;
   cursor: pointer;
 }
+
 
 
 
