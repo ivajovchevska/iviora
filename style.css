@@ -27,11 +27,12 @@ nav a {
   height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center;     
   text-align: center;
   padding: 20px;
 }
+
 .logo-image {
   max-width: 180px;
   margin-bottom: 30px;
@@ -75,6 +76,7 @@ button {
   color: #7a1e2b;
   cursor: pointer;
 }
+
 
 
 
