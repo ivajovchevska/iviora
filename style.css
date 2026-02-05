@@ -16,10 +16,12 @@ nav a {
   color: black;
   margin-left: 20px;
 }
+.logo img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
 
-.logo {
-  font-weight: bold;
-  font-size: 18px;
 }
 
 .home {
@@ -75,3 +77,4 @@ button {
   color: #7a1e2b;
   cursor: pointer;
 }
+
