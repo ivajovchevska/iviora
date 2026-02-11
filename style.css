@@ -1,136 +1,173 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #efefe6;
-  color: #000000;
+  font-family: "Inter", sans-serif;
+  background: #f4f1ec;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 60px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  margin-left: 20px;
-}
-.logo img {
-  height: 80px;
-  width: auto;
-  display: block;
- 
-}
-.home {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;     
-  text-align: center;
-  padding: 20px;
-}
-
-.logo-image {
-  max-width: 300px;
-  margin-bottom: 30px;
-}
-
-.subtitle {
-  max-width: 600px;
-  margin: 20px 0;
-}
-
-.cta-button {
-  margin-top: 30px;
-  padding: 12px 28px;
-  border: 1px solid #7a1e2b;
-  color: #7a1e2b;
-  text-decoration: none;
+h1, h2, h3 {
+  letter-spacing: -0.02em;
 }
 
 .page {
-  max-width: 900px;
-  margin: 80px auto;
-  padding: 0 20px;
-}
-
-.service {
-  margin-bottom: 50px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
-  border: 1px solid #000;
-  background: transparent;
-}
-
-button {
-  padding: 12px 24px;
-  background: none;
-  border: 1px solid #7a1e2b;
-  color: #7a1e2b;
-  cursor: pointer;
-}
-
-.packages {
-  margin-top: 120px;
-}
-
-.packages-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
-
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1100px;
+  margin: 120px auto;
   padding: 0 40px;
 }
 
-.package-card {
-  background: #f8f8f3;
-  padding: 50px 40px;
-  border: 1px solid #e0e0e0;
-  min-height: 320px;
+.nav {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  transition: all 0.3s ease;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
 }
 
-.package-card:hover {
-  transform: translateY(-6px);
+.nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 30px;
+  font-size: 15px;
+  letter-spacing: 0.05em;
 }
 
-.package-card h3 {
-  margin-bottom: 12px;
-  font-size: 20px;
+.logo img {
+  height: 70px;
 }
 
-.package-sub {
+
+.intro {
+  max-width: 700px;
+  margin-bottom: 140px;
+}
+
+.intro h1 {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #444;
+}
+
+.intro .sub {
+  margin-top: 30px;
+  color: #777;
+}
+
+.packages h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 60px 50px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.tagline {
   font-style: italic;
-  margin-bottom: 25px;
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.divider {
+  height: 1px;
+  background: #eee;
+  margin: 30px 0;
+}
+
+.card h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #444;
+}
+
+.card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.card li {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.note {
+  margin-top: 25px;
+  font-style: italic;
   color: #666;
 }
 
 .featured {
-  border: 1px solid #7a1e2b;
+  background: #fbf9f6;
 }
-@media (max-width: 1000px) {
-  .packages-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+
+.work {
+  margin-top: 160px;
+  max-width: 700px;
 }
-.work-with-me .closing {
+
+.work h2 {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.closing {
   margin-top: 40px;
   font-style: italic;
-  letter-spacing: 0.3px;
+  color: #666;
 }
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .nav {
+    padding: 20px 30px;
+  }
+
+  .page {
+    padding: 0 20px;
+  }
+}
+
+
 
 
 
